@@ -7,4 +7,4 @@ OptFus is an optical multi-sensor data fusion technique. It represents the datas
 Citation:
 OptFus: Optical Sensor Fusion For The Classification of Multi-source Data: Application to Mineralogical Mapping 
 doi: 10.1109/LGRS.2021.3132701
-![image](https://user-images.githubusercontent.com/61419984/144495176-4f28bbc7-2d10-4653-9aab-40e285d9a5f3.png)
+![image](https://user-images.githubusercontent.com/61419984/144495439-7e7c0b26-472e-422e-8b15-80dce9e83c4e.png)
