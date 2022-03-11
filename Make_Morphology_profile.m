@@ -60,3 +60,10 @@ for j=1:p
             error('Please check out the help')
     end
 end
+function [Icbr]=closingbyreconstruction(I,se)
+Id = imdilate(I, se);
+Icbr = imreconstruct(imcomplement(Id), imcomplement(I));
+Icbr = imcomplement(Icbr);
+function [Iobr]=openingbyreconstruction(I,se)
+Ie = imerode(I, se);
+Iobr = imreconstruct(Ie, I);
